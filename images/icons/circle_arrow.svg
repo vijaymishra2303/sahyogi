@@ -1,0 +1,9 @@
+<svg id="circle_arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7.781" height="7.781" viewBox="0 0 7.781 7.781">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.146" y1="0.146" x2="0.854" y2="0.854" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#54bdff"/>
+      <stop offset="1" stop-color="#0042c7"/>
+    </linearGradient>
+  </defs>
+  <path id="_3" data-name="3" d="M3.891,0A3.891,3.891,0,1,0,7.781,3.891,3.891,3.891,0,0,0,3.891,0ZM6.483,4.072,4.838,5.535a.122.122,0,0,1-.2-.091V4.575H1.46a.243.243,0,0,1-.243-.243V3.45a.243.243,0,0,1,.243-.243H4.636V2.338a.122.122,0,0,1,.2-.091L6.483,3.709a.243.243,0,0,1,0,.364Z" fill="url(#linear-gradient)"/>
+</svg>

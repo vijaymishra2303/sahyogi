@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Sahyog Care</title>
+      <!-- CSS Start -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/fonts.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/all.min.css">
+      <link rel="stylesheet" href="css/responsive.css">
+   </head>
+   <body>
+      <header class="fixed-top">
+         <!-- top_bar -->
+         <div class="sahyog_Topbar">
+            <div class="container">
+               <div class="row">
+                  <div class="sahyog_Topbar_grid">
+                     <div class="sahyog_Topbar_email">
+                        <span>
+                           <img src="images/icons/email.svg" alt="">
+                           <h6>info@example.com</h6>
+                        </span>
+                        <span>
+                           <img src="images/icons/call.svg" alt="">
+                           <h6>info@example.com</h6>
+                        </span>
+                     </div>
+                     <div class="marquee_scroll">
+                        <marquee>
+                           <a>This Is Marquie Text Scroll .......</a>
+                        </marquee>
+                     </div>
+                     <div class="sahyog_Topbar_icon">
+                        <a href="#"><span><img src="images/icons/facebook.svg" alt=""></span></a>
+                        <a href="#"><span><img src="images/icons/link.svg" alt=""></span></a>
+                        <a href="#"><span><img src="images/icons/twitter.svg" alt=""></span></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- sahyog_header -->
+         <div class="sahyog_header">
+         <div class="container">
+            <div class="row">
+               <div class="sahyog_header_grid">
+                  <a class="logoArea" href="#">
+                  <img src="images/logo.png" alt="">
+                  </a>
+                  <div class="sahyog_search_button">
+                     <select name="cars" id="cars">
+                        <option value="volvo">All Category</option>
+                        <option value="volvo">personal care</option>
+                     </select>
+                     <form class="example" action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                     </form>
+                  </div>
+                  <ul class="sahyog_shop_buy">
+                     <li class="login_active">
+                        <a href="#">
+                        <img src="images/icons/contact.svg" alt="icon">
+                        </a>
+                        <div class="login_pop">
+                           <div class="login_form">
+                              <img src="images/logo.png" alt="">
+                              <div class="login_email">
+                                 <form action="/action_page.php" method="post">
+                                    <label>
+                                       <input type="text" placeholder="Enter User ID" name="uname" required>
+                                       <div class="email_input"><img src="images/icons/user.svg" alt=""></div>
+                                    </label>
+                                    <label>
+                                       <input type="password" placeholder="Enter Password" name="psw" required>
+                                       <div class="email_input email_eye"><img src="images/icons/eyes.svg" alt=""></div>
+                                    </label>
+                              </div>
+                              <div class="psw">Forgot <a href="#">password?</a></div>
+                              <button class="btn_gocard" type="button" onclick="alert('Hello world!')">Login </button>
+                              <div class="dont_have">
+                              <h6>Don't have an account?</h6>
+                              </div>
+                              <button class="btn_gocard registerbtn  " type="button"
+                                 onclick="alert('Hello world!')">Register here </button>
+                              </form>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="activeWin">
+                        <a href="#">
+                        <img src="images/icons/shop.svg" alt="icon"> <span>3</span>
+                        </a>
+                        <div class="cartWindow">
+                           <div class="topLabel">
+                              <h3>Cart</h3>
+                           </div>
+                           <ul>
+                              <li>
+                                 <a href="#">
+                                    <figure>
+                                       <img class="img-fluid" src="images/wellness_img.png" alt="">
+                                    </figure>
+                                    <div class="prodDet">
+                                       <h5>Pediasure Vanilla Delight Flavour Nutrition Drink..-</h5>
+                                       <div class="quant">
+                                          <p>2</p>
+                                          X <em>205</em>
+                                       </div>
+                                    </div>
+                                 </a>
+                                 <div class="removeItem">
+                                    X
+                                 </div>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                    <figure>
+                                       <img class="img-fluid" src="images/wellness_img.png" alt="">
+                                    </figure>
+                                    <div class="prodDet">
+                                       <h5>Pediasure Vanilla Delight Flavour Nutrition Drink..-</h5>
+                                       <div class="quant">
+                                          <p>2</p>
+                                          X <em>205</em>
+                                       </div>
+                                    </div>
+                                 </a>
+                                 <div class="removeItem">
+                                    X
+                                 </div>
+                              </li>
+                           </ul>
+                           <div class="totalAmo">
+                              <strong>Total:</strong>
+                              <p>1400</p>
+                           </div>
+                           <div class="ButtonsCheckOut">
+                              <a href="#">Checkout</a>
+                              <a href="#">View Cart</a>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="openMenu">
+                        <img src="images/icons/menu.svg" alt="">
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="header_menu">
+            <div class="container">
+               <div class="row">
+                  <nav class="myNav">
+                     <ul>
+                        <li class="dropDown">
+                           <a href="#">sahyog Care</a>
+                           <ul class="megaMenu">
+                              <div class="container row">
+                                 <div class="col-md-3">
+                                    <h4>Product Category</h4>
+                                    <ul class="subMenuLinks">
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <div class="col-md-3">
+                                    <h4>Product Category</h4>
+                                    <ul class="subMenuLinks">
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <div class="col-md-3">
+                                    <h4>Product Category</h4>
+                                    <ul class="subMenuLinks">
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <div class="col-md-3">
+                                    <h4>Product Category</h4>
+                                    <ul class="subMenuLinks">
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </ul>
+                        </li>
+                        <li class="dropDown">
+                           <a href="#">Baby Care</a>
+                           <ul class="megaMenu">
+                              <div class="container row">
+                                 <div class="col-md-3">
+                                    <h4>Product Category</h4>
+                                    <ul class="subMenuLinks">
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <div class="col-md-3">
+                                    <h4>Product Category</h4>
+                                    <ul class="subMenuLinks">
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Items</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </ul>
+                        </li>
+                        <li><a href="#">Health & Nutrition</a></li>
+                        <li><a href="#">Women Care</a></li>
+                        <li><a href="#">Personal Care</a></li>
+                        <li><a href="#">Ayurveda</a></li>
+                        <li><a href="#">Health Devices</a></li>
+                        <li><a href="#">Home Essentials</a></li>
+                        <li><a href="#">Health Condition</a></li>
+                     </ul>
+                     <div class="closeMe">
+                        <button class="hideMe">
+                        <img src="images/icons/close.svg" alt="">
+                        </button>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- PRODUCT DETAIL -->
+      <section class="product_deatil_area">
+         <div class="container">
+         <div class="row">
+            <div class="product_deatils row ">
+               <div class="col-lg-5 slider_side">
+                  <div class="single_proSliders">
+                     <div class="single_proSlider_galary">
+                        <a href="#pro_img_1" class="galary-triger active"><img src="images/spray.png"></a>
+                        <a href="#pro_img_2" class="galary-triger"><img src="images/spray.png" alt=""></a>
+                        <a href="#pro_img_3" class="galary-triger"><img src="images/spray.png" alt=""></a>
+                     </div>
+                     <div class="s-pro-slide owl-carousel">
+                        <div class="quiSLidItem" data-hash="pro_img_1"><img src="images/spray.png" data-imagezoom="true"
+                           alt=""></div>
+                        <div class="quiSLidItem" data-hash="pro_img_2"><img src="images/spray.png" data-imagezoom="true"
+                           alt=""></div>
+                        <div class="quiSLidItem" data-hash="pro_img_3"><img src="images/spray.png" data-imagezoom="true"
+                           alt=""></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-6 col-sm-6">
+                  <div class="product_detail">
+                     <span class="in_stock">
+                        <div class=" pop_work">
+                           <h4>40% 0ff</h4>
+                        </div>
+                        <h4>In Stock</h4>
+                     </span>
+                     <p>Coloplast 12010 Brava Adhesive Remover Spray, 50 ml</p>
+                     <div class="right_review">
+                        <div class="rating_star">
+                           <img src="images/icons/staar_img.svg" alt="">
+                           4.5
+                        </div>
+                        <strong>
+                        <a href="">24 reviews</a>
+                        <a href="">Write a review</a></strong>
+                     </div>
+                     <div class="all_inclusive">
+                        <div class="sahyog_product_price ">
+                           <h5>₹1405.5</h5>
+                           <h6>₹1500.5</h6>
+                        </div>
+                        <b>(Inclusive of all taxes)</b>
+                     </div>
+                     <h5>Manufacturer/Marketer</h5>
+                     <h6>Coloplast India Pvt Ltd</h6>
+                     <ul class="ml_product">
+                        <li class="active"><button type="button">80ml</button></li>
+                        <li><button type="button">30ml</button></li>
+                     </ul>
+                     <div class="checkPincode">
+                        <form action="/action_page.php" method="post">
+                           <label>
+                           <input type="text" placeholder="Enter Pincode" name="uname" required="">
+                           </label>
+                           <button>
+                           Check
+                           </button>
+                        </form>
+                     </div>
+                     <div class="local_dell">
+                        <img src="images/icons/location.svg" alt="">
+                        <h6>Delivery To Pinode - 462008</h6>
+                        </span>
+                     </div>
+                  </div>
+               </div>
+               <!-- FREQUENTLY -->
+               <div class="col-xl-3 col-lg-6 col-sm-6">
+                  <div class="Frequently_bought">
+                     <h3>Frequently bought together</h3>
+                     <div class="category_product ">
+                        <img src="images/ortho_pro.png" alt="">
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <span>
+                           <p>Pediasure Vanilla Delight Flavour Nutrition Drink..-</p>
+                           <div class="sahyog_product_price">
+                              <h5>₹1405.5</h5>
+                              <h6>₹1405.5</h6>
+                           </div>
+                        </span>
+                     </div>
+                     <div class="category_product ">
+                        <img src="images/cool_mint.png" alt="">
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <span>
+                           <p>Pediasure Vanilla Delight Flavour Nutrition Drink..-</p>
+                           <div class="sahyog_product_price">
+                              <h5>₹1405.5</h5>
+                              <h6>₹1405.5</h6>
+                           </div>
+                        </span>
+                     </div>
+                  </div>
+                  <div class="pre_total">
+                     <p>₹1405.5</p>
+                     <p>+ </p>
+                     <p>₹1405.5</p>
+                     <p>=</p>
+                     <b>₹1405.5</b>
+                  </div>
+                  <a class="btn_gocard" href="#">Add To Cart <img src="images/icons/card.svg" alt=""></a>
+               </div>
+            </div>
+      </section>
+      <section class="productTabs">
+      <div class="container">
+      <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+         type="button" role="tab" aria-controls="nav-home" aria-selected="true">Product Detail</button>
+      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+         type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Review</button>
+      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+         type="button" role="tab" aria-controls="nav-contact" aria-selected="false">FAQ</button>
+      </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+      <div class="row">
+      <div class="col-lg-6 col-12">
+      <div class="Disclaimer_text">
+      <h3>Directions for Use</h3>
+      <span><img src="images/icons/direct_arrow.svg" alt="">
+      <p>Use as directed on the label.</p>
+      </span>
+      </div>
+      <div class="Disclaimer_text Disclaimer_pad">
+      <h3>Safety Information</h3>
+      <span><img src="images/icons/direct_arrow.svg" alt="">
+      <p>Read the label carefully before use..</p>
+      </span>
+      <span><img src="images/icons/direct_arrow.svg" alt="">
+      <p>Keep out of the reach of children.</p>
+      </span>
+      </div>
+      <div class="Disclaimer_text">
+      <h3>Disclaimer</h3>
+      <p>While we strive to provide complete, accurate, and
+      expert-reviewed content on our 'Platform',
+      we make no warranties or representations
+      and disclaim all responsibility and liability
+      for the completeness, accuracy, or reliability
+      of the aforementioned content. The content on
+      our platform is for informative purposes only,
+      and may not cover all clinical/non-clinical aspects.
+      Reliance on any information and subsequent action or
+      inaction is solely at the user's risk, and we do not
+      assume any responsibility for the same. The content
+      on the Platform should not be considered or used as
+      a substitute for professional and qualified medical
+      advice. Please consult your doctor for any query
+      pertaining to medicines, tests
+      and/or diseases, as we support, and do not replace the doctor-patient relationship.</p>
+      </div>
+      </div>
+      <div class="col-md-6">
+      <div class="manufacture_pro">
+      <div class="country_orgin">
+      <img src="images/icons/location.svg" alt="">
+      <div class="country_flex">
+      <h4>Country Of Origin</h4>
+      <p>India</p>
+      </div>
+      </div>
+      <div class="country_orgin">
+      <img src="images/icons/location.svg" alt="">
+      <div class="country_flex">
+      <h4>Manufacturer/Marketer
+      address</h4>
+      <p>Coloplast US Headquarters, 1601 West River <br>
+      Road North, Minneapolis, MN 55411</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <!--  -->
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+      <div class="using_rating_bar">
+      <div class="rating_page">        
+      <span class="heading">User Rating</span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star reating_opp"></span></div>    
+      <p>4.1 average based on 254 reviews.</p>
+      <hr style="border:3px solid #f1f1f1">
+      <div class="row">
+      <div class="side">
+      <div>5 star</div>
+      </div>
+      <div class="middle">
+      <div class="bar-container">
+      <div class="bar-5"></div>
+      </div>
+      </div>
+      <div class="side right">
+      <div>150</div>
+      </div>
+      <div class="side">
+      <div>4 star</div>
+      </div>
+      <div class="middle">
+      <div class="bar-container">
+      <div class="bar-4"></div>
+      </div>
+      </div>
+      <div class="side right">
+      <div>63</div>
+      </div>
+      <div class="side">
+      <div>3 star</div>
+      </div>
+      <div class="middle">
+      <div class="bar-container">
+      <div class="bar-3"></div>
+      </div>
+      </div>
+      <div class="side right">
+      <div>15</div>
+      </div>
+      <div class="side">
+      <div>2 star</div>
+      </div>
+      <div class="middle">
+      <div class="bar-container">
+      <div class="bar-2"></div>
+      </div>
+      </div>
+      <div class="side right">
+      <div>6</div>
+      </div>
+      <div class="side">
+      <div>1 star</div>
+      </div>
+      <div class="middle">
+      <div class="bar-container">
+      <div class="bar-1"></div>
+      </div>
+      </div>
+      <div class="side right">
+      <div>20</div>
+      </div>
+      </div>     
+      </div>
+      <!-- review PERSON NAME -->
+      <div class="all_review">
+      <div class="rivew">
+      <div class="use_profile review_profile">
+      <span>G</span>
+      </div>
+      <div class="rating">
+      <strong>Goutam patidar</strong>
+      <div class="rating_star">
+      <img src="images/icons/star.svg" alt="">
+      <img src="images/icons/star.svg" alt="">
+      <img src="images/icons/star.svg" alt="">
+      <img src="images/icons/star.svg" alt="">
+      <img src="images/icons/star.svg" alt="">
+      </div>
+      </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque tenetur eum aperiam ipsam
+      illum ipsa id cum obcaecati reprehenderit corrupti consequatur dolor ullam vero architecto
+      provident veritatis, exercitationem enim repellendus.</p>
+      </div>
+      <div class="all_review">
+      <div class="rivew">
+      <div class="use_profile review_profile">
+      <span>V</span>
+      </div>
+      <div class="rating">
+      <strong>Vijay Mishra</strong>
+      <div class="rating_star">
+      <img src="images/icons/star.svg" alt="">
+      <img src="images/icons/star.svg" alt="">
+      <img src="images/icons/star.svg" alt="">
+      <img src="images/icons/star.svg" alt="">
+      <img src="images/icons/star.svg" alt="">
+      </div>
+      </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque tenetur eum aperiam ipsam
+      illum ipsa id cum obcaecati reprehenderit corrupti consequatur dolor ullam vero architecto
+      provident veritatis, exercitationem enim repellendus.</p>
+      </div>
+      <div class="all_review">
+      <div class="rivew">
+      <div class="use_profile review_profile">
+      <span>D</span>
+      </div>
+      <div class="rating">
+      <strong>Divij Sharma</strong>
+      <div class="rating_star">
+      <img src="images/icons/star.svg" alt="">
+      <img src="images/icons/star.svg" alt="">
+      <img src="images/icons/star.svg" alt="">
+      <img src="images/icons/star.svg" alt="">
+      <img src="images/icons/star.svg" alt="">
+      </div>
+      </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque tenetur eum aperiam ipsam
+      illum ipsa id cum obcaecati reprehenderit corrupti consequatur dolor ullam vero architecto
+      provident veritatis, exercitationem enim repellendus.</p>
+      </div>
+      </div>
+      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+      <!--FQA  -->
+      <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button accordion_bg" type="button" data-bs-toggle="collapse"
+         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      How much time would it take for the App to develop?
+      </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+         data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <strong>The amount of time required for developing an app depends on a lot of variables.
+      Everything depends on the complexity of the project and the number of ACtech stacks in
+      question..</strong>
+      </div>
+      </div>
+      </div>
+      <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      What would be the Cost of Developing the App?
+      </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+         data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <strong>The amount of time required for developing an app depends on a lot of variables.
+      Everything depends on the complexity of the project and the number of ACtech stacks in
+      question..</strong>
+      </div>
+      </div>
+      </div>
+      <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+         data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      How often should I update the App?
+      </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+         data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <strong>The amount of time required for developing an app depends on a lot of variables.
+      Everything depends on the complexity of the project and the number of ACtech stacks in
+      question..</strong>
+      </div>
+      </div>
+      </div>
+      <div class="accordion-item">
+      <h2 class="accordion-header" id="headingfour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+         data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
+      How will I secure my app?
+      </button>
+      </h2>
+      <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+         data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <strong>The amount of time required for developing an app depends on a lot of variables.
+      Everything depends on the complexity of the project and the number of ACtech stacks in
+      question..</strong>
+      </div>
+      </div>
+      </div>
+      <div class="accordion-item">
+      <h2 class="accordion-header" id="headingfive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+         data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
+      Should I develop in iOS or Android?
+      </button>
+      </h2>
+      <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+         data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <strong>The amount of time required for developing an app depends on a lot of variables.
+      Everything depends on the complexity of the project and the number of ACtech stacks in
+      question..</strong>
+      </div>
+      </div>
+      </div>
+      <div class="accordion-item">
+      <h2 class="accordion-header" id="headingsix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+         data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+      Which services are offered by Maxtra Technologies?
+      </button>
+      </h2>
+      <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix"
+         data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <strong>The amount of time required for developing an app depends on a lot of variables.
+      Everything depends on the complexity of the project and the number of ACtech stacks in
+      question..</strong>
+      </div>
+      </div>
+      </div>
+      <div class="accordion-item">
+      <h2 class="accordion-header" id="headingseven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+         data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+      What is the team strength of the company?
+      </button>
+      </h2>
+      <div id="collapseseven" class="accordion-collapse collapse" aria-labelledby="headingseven"
+         data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <strong>The amount of time required for developing an app depends on a lot of variables.
+      Everything depends on the complexity of the project and the number of ACtech stacks in
+      question..</strong>
+      </div>
+      </div>
+      </div>
+      <div class="accordion-item">
+      <h2 class="accordion-header" id="headingeight">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+         data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+      Why should I choose Maxtra Technologies over other mobile app development companies?
+      </button>
+      </h2>
+      <div id="collapseeight" class="accordion-collapse collapse" aria-labelledby="headingeight"
+         data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <strong>The amount of time required for developing an app depends on a lot of variables.
+      Everything depends on the complexity of the project and the number of ACtech stacks in
+      question..</strong>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
+      <!-- PRODUCT -->
+      <div class="sahyog_padd sahyog_sec_back" data-aos="fade-up">
+         <div class="container">
+            <div class="sahyog_view">
+               <div class="sahyog_main_heading">
+                  <h2>RELATED PRODUCT</h2>
+               </div>
+               <div class="viewAllBtn">
+                  <a href="#">VIEW ALL<img src="images/icons/arrow_view.svg" alt=""></a>
+               </div>
+            </div>
+            <div class="row ">
+               <div class="col-xl-2 col-lg-6 col-sm-6 col-6">
+                  <a class="ProCard" href="#">
+                     <div class="sahyog_wellness_weekend_grid">
+                        <figure>
+                           <img class="img-fluid" src="images/wellness_img.png" alt="">
+                           <div class="product_add_flex pop_work">
+                              <h4>40% 0ff</h4>
+                           </div>
+                           <div class="sahyog_add_bag">
+                              <h3>Add to bag</h3>
+                           </div>
+                        </figure>
+                        <p>Pediasure Vanilla Delight Flavour Nutrition Drink..-</p>
+                        <strong>70% extra cashback</strong>
+                        <div class="sahyog_product_price">
+                           <h5>₹1405.5</h5>
+                           <h6>₹1405.5</h6>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-xl-2 col-lg-6 col-sm-6 col-6 ">
+                  <a class="ProCard" href="#">
+                     <div class="sahyog_wellness_weekend_grid">
+                        <figure>
+                           <img class="img-fluid" src="images/ortho_pro.png" alt="">
+                           <div class="product_add_flex pop_work">
+                              <h4>40% 0ff</h4>
+                           </div>
+                           <div class="sahyog_add_bag">
+                              <h3>Add to bag</h3>
+                           </div>
+                        </figure>
+                        <p>Pediasure Vanilla Delight Flavour Nutrition Drink..-</p>
+                        <strong>70% extra cashback</strong>
+                        <div class="sahyog_product_price">
+                           <h5>₹1405.5</h5>
+                           <h6>₹1405.5</h6>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-xl-2 col-lg-6 col-sm-6 col-6 ">
+                  <a class="ProCard" href="#">
+                     <div class="sahyog_wellness_weekend_grid">
+                        <figure>
+                           <img class="img-fluid" src="images/luvlap.png" alt="">
+                           <div class="product_add_flex pop_work">
+                              <h4>40% 0ff</h4>
+                           </div>
+                           <div class="sahyog_add_bag">
+                              <h3>Add to bag</h3>
+                           </div>
+                        </figure>
+                        <p>Pediasure Vanilla Delight Flavour Nutrition Drink..-</p>
+                        <strong>70% extra cashback</strong>
+                        <div class="sahyog_product_price">
+                           <h5>₹1405.5</h5>
+                           <h6>₹1405.5</h6>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-xl-2 col-lg-6 col-sm-6 col-6 ">
+                  <a class="ProCard" href="#">
+                     <div class="sahyog_wellness_weekend_grid">
+                        <figure>
+                           <img class="img-fluid" src="images/ortho_pro.png" alt="">
+                           <div class="product_add_flex pop_work">
+                              <h4>40% 0ff</h4>
+                           </div>
+                           <div class="sahyog_add_bag">
+                              <h3>Add to bag</h3>
+                           </div>
+                        </figure>
+                        <p>Pediasure Vanilla Delight Flavour Nutrition Drink..-</p>
+                        <strong>70% extra cashback</strong>
+                        <div class="sahyog_product_price">
+                           <h5>₹1405.5</h5>
+                           <h6>₹1405.5</h6>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-xl-2 col-lg-6 col-sm-6 col-6  ">
+                  <a class="ProCard" href="#">
+                     <div class="sahyog_wellness_weekend_grid">
+                        <figure>
+                           <img class="img-fluid" src="images/bandage.png" alt="">
+                           <div class="product_add_flex pop_work ">
+                              <h4>40% 0ff</h4>
+                           </div>
+                           <div class="sahyog_add_bag">
+                              <h3>Add to bag</h3>
+                           </div>
+                        </figure>
+                        <p>Pediasure Vanilla Delight Flavour Nutrition Drink..-</p>
+                        <strong>70% extra cashback</strong>
+                        <div class="sahyog_product_price">
+                           <h5>₹1405.5</h5>
+                           <h6>₹1405.5</h6>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="col-xl-2 col-lg-6 col-sm-6 col-6 ">
+                  <a class="ProCard" href="#">
+                     <div class="sahyog_wellness_weekend_grid">
+                        <figure>
+                           <img class="img-fluid" src="images/ortho_pro.png" alt="">
+                           <div class="product_add_flex pop_work">
+                              <h4>40% 0ff</h4>
+                           </div>
+                           <div class="sahyog_add_bag">
+                              <h3>Add to bag</h3>
+                           </div>
+                        </figure>
+                        <p>Pediasure Vanilla Delight Flavour Nutrition Drink..-</p>
+                        <strong>70% extra cashback</strong>
+                        <div class="sahyog_product_price">
+                           <h5>₹1405.5</h5>
+                           <h6>₹1405.5</h6>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <div class="viewAllDesk">
+                  <div class="viewAllBtn">
+                     <a href="#">VIEW ALL<img src="images/icons/arrow_view.svg" alt=""></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- FOOTER -->
+      <footer class="sahyog_footer">
+         <div class="container">
+            <div class="row">
+               <div class="sahyog_col">
+                  <div class="sahyog_footer_heading">
+                     <h2>About sahyog Care</h2>
+                  </div>
+                  <ul>
+                     <li><a href="#">About Us</a></li>
+                     <li><a href="#">FAQs</a></li>
+                     <li><a href="#">Find a Pharmacy</a></li>
+                     <li><a href="#">Careers</a></li>
+                     <li><a href="#">Contact Us</a></li>
+                     <li><a href="#">Blogs</a></li>
+                     <li><a href="#">Health Queries</a></li>
+                     <li><a href="#">Know Your Health Credits</a></li>
+                     <li><a href="#">About One sahyog Care</a></li>
+                     <li><a href="#">Terms and Conditions</a></li>
+                     <li><a href="#">Corporate</a></li>
+                     <li><a href="#">sahyog Care Membership</a></li>
+                     <li><a href="#">Online Medicine App</a></li>
+                     <li><a href="#">Online Doctor App</a></li>
+                     <li><a href="#">Medicine Delivery & Cancellations</a></li>
+                     <li><a href="#">Returns & Refunds</a></li>
+                     <li><a href="#">Privacy Policy</a></li>
+                     <li><a href="#">Pharmacy Sitemap</a></li>
+                  </ul>
+               </div>
+               <div class="sahyog_col">
+                  <div class="sahyog_footer_heading">
+                     <h2>Services</h2>
+                  </div>
+                  <ul>
+                     <li><a href="#">Online Doctor Consultation</a></li>
+                     <li><a href="#">sahyog Care Health</a></li>
+                     <li><a href="#">All Doctors List</a></li>
+                     <li><a href="#">Consult Physicians</a></li>
+                     <li><a href="#">Consult Dermatologists</a></li>
+                     <li><a href="#">Consult Gynaecologists</a></li>
+                     <li><a href="#">Consult Gastroenterologists</a></li>
+                     <li><a href="#">Consult Cardiologists</a></li>
+                     <li><a href="#">Consult Dietitians</a></li>
+                     <li><a href="#">Consult ENT Specialists</a></li>
+                     <li><a href="#">Consult Paediatricians</a></li>
+                     <li><a href="#">Consult Geriatricians</a></li>
+                     <li><a href="#">Consult Diabetologists</a></li>
+                  </ul>
+               </div>
+               <div class="sahyog_col">
+                  <div class="sahyog_footer_heading">
+                     <h2>Product Categories</h2>
+                  </div>
+                  <ul>
+                     <li><a href="#">View All Brands</a></li>
+                     <li><a href="#">View All Salts</a></li>
+                     <li><a href="#">View All Medicine</a></li>
+                     <li><a href="#">View All OTC</a></li>
+                     <li><a href="#">Health Devices</a></li>
+                     <li><a href="#">Personal Care</a></li>
+                     <li><a href="#">Baby Care</a></li>
+                     <li><a href="#">Nutrition</a></li>
+                     <li><a href="#">Dolo 650</a></li>
+                     <li><a href="#">Beauty Skin Care</a></li>
+                     <li><a href="#">Immunity Boosters</a></li>
+                     <li><a href="#">Covid Essentials</a></li>
+                     <li><a href="#">Diabetes Care</a></li>
+                     <li><a href="#">Patanjali Coronil Kit</a></li>
+                     <li><a href="#">Mamaearth Products</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="sahyog_mobile">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4">
+                     <div class="sahyog_mobile_app">
+                        <a href="#"><img src="images/sahyog_logo_footer.png" alt="image"></a>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="sahyog_mobile_app">
+                        <h3>Find Us</h3>
+                        <ul>
+                           <li><a href="#"><img src="images/icons/facebook.svg" alt=""></a></li>
+                           <li><a href="#"><img src="images/icons/link.svg" alt=""></a></li>
+                           <li><a href="#"><img src="images/icons/twitter.svg" alt=""></a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="sahyog_mobile_app google_app">
+                        <h3>Get sahyog Care Mobile App</h3>
+                        <li><a href="#"><img src="images/google.png" alt=""></a></li>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+        
+         <div class="copy_right">
+            <div class="container">
+               <p>Copyright © <a href="#">sahyog Care</a> All Rights Reserved</p>
+            </div>
+         </div>
+      </footer>
+      <!-- JS Start -->
+      <script src="js/jquery-3.6.3.min.js "></script>
+      <script src="js/bootstrap.min.js "></script>
+      <script src="js/owl.carousel.min.js "></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="js/custom.js "></script>
+      <script>
+         $(function () {
+            AOS.init();
+         });
+         AOS.init({
+            duration: 1200, 
+         })
+      </script>
+   </body>
+</html>

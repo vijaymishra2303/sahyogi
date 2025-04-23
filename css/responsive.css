@@ -1,0 +1,501 @@
+/*---- Responsive CSS Start ----*/
+@media (max-width: 1440px) {
+}
+@media (max-width: 1366px) {}
+@media (max-width: 1024px) {
+}
+@media (min-width: 992px) {
+    .brnad .container {
+    margin: 0px auto;
+    max-width: 1590px;}
+.closeMe {
+display: none;
+}
+.header_menu .myNav ul {
+display: flex;
+}
+.header_menu .myNav ul li.dropDown a {
+position: relative;
+}
+.header_menu .myNav ul li.dropDown > a::after {
+transform: rotate(90deg);
+position: absolute;
+top: -3px;
+right: 2px;
+content: ">";
+color: rgb(255, 255, 255);
+font-family: cursive;
+}
+.header_menu .myNav ul li.dropDown:hover .megaMenu {
+top: 100%;
+visibility: visible;
+opacity: 1;
+}
+.openMenu {
+display: none;
+}
+#sidebar {
+position: sticky;
+top: 0;
+}
+.closeFilter {
+display: none;
+}
+.search_product .container   {
+margin: 0px  auto;
+max-width: 1590px;
+}
+.openFilter {
+display: none;
+}
+.hide_search  {
+display: none;
+}
+.header_menu .openMenu {
+display: none;
+}
+}
+@media (max-width: 991px) {
+.my_order .profile_accound {
+margin: 0 0 30px 0;
+}
+.product_deatils.row  {
+margin: 0 auto;
+}
+.single_address2 {
+padding: 0 0 30px 0;
+}
+.fixed-top.active {
+z-index: 0;
+}
+.viewAllDesk {
+display: flex;
+}
+.sahyog_view .viewAllBtn {
+display: none;
+}
+.header_menu .myNav ul li.dropDown a {
+position: relative
+}  
+.single_proSlider_galary {
+display: none;
+} 
+.header_menu .myNav ul li.dropDown > a::after {
+transform: rotate(90deg);
+position: absolute;
+top: -2px;
+right: 21px;
+content: ">";
+color: rgb(255, 255, 255);
+font-family: cursive;
+}
+.megaMenu .container h4 {
+margin: 0;
+border-bottom: 1px solid #ddd;
+padding: 0 0 10px 0;
+}
+.megaMenu .container {
+padding: unset;
+}
+.megaMenu .container .col-md-3 {
+margin: 0 0 15px 0;
+}
+.megaMenu {
+display: none;
+margin: 15px 15px 0 15px;
+transition: none;
+padding: 20px !important;
+/* display: none; */
+opacity: 1;
+visibility: visible;
+position: static;
+background: #ffffff;
+width: auto;
+}
+.header_menu .myNav ul li {
+padding: 5px 0;
+}
+.header_menu .myNav ul li.dropDown a {
+display: block;
+width: 100%;
+}
+body {
+padding: 160px 0 0 0;
+}
+.closeMe {
+z-index: 10;
+display: block !important;
+position: absolute;
+right: 15px;
+top: 15px;
+}
+.closeMe button {
+border-radius: 30px;
+border: none;
+}
+.header_menu .myNav ul {width: max-content;width: inherit;}
+.header_menu .myNav.active {
+left: 0;
+opacity: 1;
+visibility: visible;
+}
+.sahyog_search_button .example {
+width: 100%;
+}
+.sahyog_header {
+padding: 0 0;
+}
+.sahyog_header_grid {
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 10px 10px;
+}
+.header_menu .myNav {
+padding: 50px 0 0 0;
+opacity: 0;
+left: -100%;
+z-index: 999;
+position: fixed;
+top: 0;
+height: 100%;
+overflow: auto;
+transition: 0.5s;
+visibility: hidden;
+}
+.logoArea  {
+order: 1
+}
+.sahyog_header_grid  .logoArea img {
+width: 200px;
+}
+.sahyog_shop_buy {
+order: 2
+}
+.sahyog_search_button {
+order: 3
+}
+.input_filter {
+}
+.sahyog_search_button select {
+height: auto;
+height: 50px;
+}
+span.overlay {
+position: fixed;
+background: rgb(0 0 0 / 52%);
+top: 0;
+width: 100%;
+left: -110%;
+height: 100vh;
+-webkit-transition: .3s ease all;
+-o-transition: .3s ease all;
+transition: .3s ease all;
+z-index: -7;
+}
+.accordion-item:first-of-type .accordion-button {
+padding: 8px ;
+}
+.hideFilter.active .overlay {
+left: 0;
+}
+.sticky {
+position: initial;
+}
+.hideFilter {
+opacity: 0;
+visibility: hidden;
+position: fixed;
+top: 0;
+left: -100%;
+width: 100%;
+overflow: auto;
+height: 100%;
+padding: 20px;
+-webkit-transition: .3s ease all;
+-o-transition: .3s ease all;
+transition: .3s ease all;
+background: #fff;
+border: 1px solid #f2f2f2;
+border-radius: 0;
+}
+.hideFilter.active {
+opacity: 1;
+visibility: visible;
+left: 0;
+z-index: 99999;
+}
+.sahyog_shop_buy span {
+top: 14px;
+}
+.marquee_scroll {display: flex;width: 100%;}
+.sahyog_search_button{
+margin: 15px 0 0 0;
+width: 100%;
+}
+.hide_search {
+display: block;
+display: flex;
+height: 40px;
+}
+.sahyog_Topbar_email {
+display: none;
+}
+.sahyog_what_flex h3 {
+font-size: 20px;
+line-height: 30px;
+}
+.owl-nav img {
+height: 14px;
+object-fit: fill;
+}
+.owl-nav {
+position: absolute;
+top: -65px;
+right: 0;
+} 
+.sahyog_what_flex {
+padding: 56px 30px;
+}
+.sahyog_shop_buy {position: relative;}
+.sahyog_breadCamp {padding: 5px 0 0 0;}
+}
+@media (max-width: 768px){
+}
+@media (max-width: 767px){
+.productTabs .nav-tabs .nav-link {
+padding: 7px 12px;
+}
+.productTabs .accordion {
+width: 100%;
+}
+.media.theOrdeItm.summerPro {
+padding: 0px 70px 0 0;
+}
+.sahyog_what_flex {border-radius: 15px 15px 0px 0px;padding: 20px 43px;}
+.cashback_flex {
+border-radius: 0px 0px 15px 15px;
+display: block;
+} 
+.login_form .account_text::before {
+right: 14px;
+top: 20px;
+width: 21%;
+}
+.login_form .account_text::after {left: 14px;top: 20px;width: 21%;}
+}
+@media (max-width: 576px){
+.using_rating_bar .rating_page {
+display: block;
+}
+.using_rating_bar .heading {
+margin-right: 6px;
+}
+.using_rating_bar .fa {
+font-size: 20px;
+}
+.using_rating_bar .side, .middle {
+width: 100%;
+}
+.using_rating_bar .right {
+display: none;
+}
+.login_pop {}
+.number input {
+font-size: 16px;
+width: 30px;
+text-align: center;
+}
+.number > span {
+padding: 2px;
+}
+.add_item ul li figure img {
+width: 90px;
+}
+.add_item ul li .quant {
+padding: 10px 0 0 0;
+}
+.add_item ul li {
+gap: 10px;
+align-items: start;
+}
+.card_window {
+margin: 0px 0px 20px 0;
+padding: 15px;
+}
+.add_item ul li .prodDet strong h4 {
+font-size: 14px;
+}
+.number .minus, .plus {
+padding: 5px 5px;
+}
+.product_detail .right_review {
+display: block;
+}
+.sahyog_mobile_app ul {
+justify-content: center;
+}
+.sahyog_wellness_weekend_grid span img {
+width: 100%;
+height: 200px;
+}
+.sahyog_breadCamp_text h1 {
+font-size: 30px;
+line-height: 40px;
+} 
+.sahyog_shop_buy a span img {
+width: 18px;
+height: 18px;
+}
+.sahyog_shop_buy {gap: 15px;}
+.sahyog_view {
+display: block;
+}
+.sahyog_view span {position: absolute;bottom: 37px;left: 44%;}
+.sahyog_bg_flex .sahyog_bg_order h3 {
+font-size: 30px;
+line-height: 40px;
+}
+.sahyog_footer .sahyog_mobile {
+padding: 20px 0;
+}
+.sahyog_footer {/* border-radius: 50px; */}
+.sahyog_mobile_app {
+padding: 10px 0 10px 0;
+text-align: center;
+}
+.what_bg_back img {
+width: 192px;
+height: 191px;
+}
+.sahyog_padd .owl-carousel.sahyog_product_list.owl-loaded.owl-drag .owl-nav.disabled {
+top: -58px;
+right: 0px;
+}
+.sahyog_main_heading h2 {
+font-size: 20px;
+line-height: 30px;
+}
+.popular_card_flex figure img {
+height: 173px !important;
+}
+.popular_card_flex {
+align-items: end;
+}
+.popular_card_flex .popular_card_fresh h3 {
+padding: 0 0 15px;
+}
+.sahyog_product_list img {
+height: 30px;
+width: 40px !important;
+}
+.producr_high {
+padding: 15px;
+}
+.testimonial_padd {
+padding: 0;
+}
+.s-pro-slide img {height: 288px !important;object-fit: contain;}
+.brand_img {
+padding: 10px 25px;
+}
+.sahyog_search_button .example {
+height: 40px;
+}
+.sahyog_search_button select {height: 40px;padding: 0 15px;width: fit-content;}
+.brand_img figure img {
+height: auto;
+}
+.sahyog_btn {
+font-size: 14px;
+padding: 8px 12px;
+}
+.sahyog_padd {
+padding: 40px 10px 60px 10px;
+}
+.sahyog_footer .sahyog_footer_heading h2 {
+text-align: left;
+font-size: 20px;
+}
+.sahyog_footer .sahyog_col ul {}
+.sahyog_footer .sahyog_col ul li a {
+font-size: 12px;
+line-height: 22px;
+}
+.sahyog_mobile_app img {width: 40%;height: auto;}
+.sahyog_wellness_weekend_grid p {
+font-size: 14px;
+line-height: 24px;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+line-clamp: 2;
+-webkit-box-orient: vertical;
+}
+.sahyog_view a {
+font-size: 12px;
+}
+.sahyog_view span::before {
+width: 44px;
+height: 45px;
+top: -11px;
+left: -14px;
+}
+.sahyog_mobile_app h3 {
+font-size: 16px;
+line-height: 26px;
+padding: 5px 0px 8px 0px;
+text-align: center;
+}
+.sahyog_mobile_app ul li a {padding: 10px;}
+.sahyog_mobile_app ul li a img {
+width: 10px;
+}
+.sahyog_add_bag h3 {
+padding: 3px 10px;
+font-size: 12px;
+}
+.cashback_what {
+padding: 20px 0 0 0;
+}
+.Disclaimer_text p {
+font-size: 14px;
+line-height: 24px;
+}
+.sahyog_breadCamp_text h6 {
+font-size: 16px;
+line-height: 26px;
+}
+.what_bg_back img {
+left: 41%;
+}
+.pop_work h4 {
+font-size: 12px;
+padding: 2px 10px;
+}
+.country_flex p {
+padding: 0;
+}
+.product_detail p {
+font-size: 16px;
+line-height: 26px;
+}
+.login_form .account_text {
+padding: 9px 0;
+}
+.product_detail .product_bottle {
+width: 100%;
+}
+.sahyog_footer .sahyog_col ul li {
+width: 50%;
+text-align: left;
+}
+.login_form {
+padding: 24px;
+}
+.product_detail {
+padding: 40px 0px;
+}
+.sahyog_shop_buy span  {
+top: -8px;
+}
+}
